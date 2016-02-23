@@ -11,6 +11,9 @@ h3 {
   width: 200px;
   height: 100px;
   background-color: red;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
 }
 .important-block p {
   color: white;
@@ -27,6 +30,9 @@ h3 {
 .important-block .some-div .important {
   color: purple;
   text-transform: uppercase;
+}
+.important-block .event-information img {
+  border: 1px solid green;
 }
 p {
   color: #0e10b2;
