@@ -1,4 +1,4 @@
-@primaryBlue: #0e10b2;
+@import 'variables.less';
 
 h1 {
     color: red;
@@ -10,6 +10,27 @@ h2 {
 
 h3 {
     color: @primaryBlue;
+}
+
+.important-block {
+    width: @width;
+    height: @height;
+    background-color: red;
+    
+    p {
+        color: white;
+    }
+    
+    ul#some-id.some-class {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        
+        li {
+            color: purple;
+            font-weight: bold;
+        }
+    }
 }
 
 p {

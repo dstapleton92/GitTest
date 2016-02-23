@@ -7,6 +7,23 @@ h2 {
 h3 {
   color: #0e10b2;
 }
+.important-block {
+  width: 200px;
+  height: 100px;
+  background-color: red;
+}
+.important-block p {
+  color: white;
+}
+.important-block ul#some-id.some-class {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.important-block ul#some-id.some-class li {
+  color: purple;
+  font-weight: bold;
+}
 p {
   color: #0e10b2;
 }
